@@ -1,5 +1,3 @@
-// index.js
-
 // The code below is temporary and can be commented out.
 // const { fetchMyIP , fetchCoordsByIP } = require('./iss');
 
@@ -57,3 +55,5 @@ nextISSTimesForMyLocation((error, passTimes) => {
   // success, print out the deets!
   printPassTimes(passTimes);
 });
+
+module.exports = { printPassTimes };
